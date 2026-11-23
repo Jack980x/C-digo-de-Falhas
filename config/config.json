@@ -1,0 +1,77 @@
+{
+  "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "gemini_model": "gemini-3.8-flash",
+  "ultimas_colunas": [
+    "Código",
+    "Causa",
+    "Localização da Avaria",
+    "Descrição"
+  ],
+  "ultimas_larguras": {
+    "Código": 16.0,
+    "Localização da Avaria": 48.0,
+    "Causa": 35.0,
+    "Descrição": 55.0
+  },
+  "perfis_colunas": {
+    "1": {
+      "nome": "Padrão de Referência da Imagem",
+      "colunas": [
+        "Códigos",
+        "Componente Culpa",
+        "FMI",
+        "Localização da Falha"
+      ]
+    },
+    "2": {
+      "nome": "Linha Leve / Automotivo Geral (OBD-II / DTC)",
+      "colunas": [
+        "Módulo/Central",
+        "Código DTC",
+        "Descrição Original",
+        "Descrição Técnica (PT-BR)",
+        "Condição de Ativação / Sintoma",
+        "Possíveis Causas",
+        "Ação Recomendada"
+      ]
+    },
+    "3": {
+      "nome": "Resumido / Direto",
+      "colunas": [
+        "Código da Falha",
+        "Descrição Original",
+        "Descrição Técnica (PT-BR)",
+        "Possíveis Causas"
+      ]
+    }
+  },
+  "glossario_tecnico": {
+    "preserve_untranslated": [
+      "ECU",
+      "TCU",
+      "ABS",
+      "EBS",
+      "ESP",
+      "EGR",
+      "DPF",
+      "SCR",
+      "CAN",
+      "PWM",
+      "OBD",
+      "OBD-II",
+      "DTC",
+      "SPN",
+      "FMI",
+      "MIL",
+      "MAF",
+      "MAP",
+      "O2",
+      "VGT",
+      "Common Rail",
+      "AdBlue",
+      "Arla 32",
+      "High Side",
+      "Low Side"
+    ]
+  }
+}
